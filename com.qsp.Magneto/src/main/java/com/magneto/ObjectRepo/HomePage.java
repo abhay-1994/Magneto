@@ -13,9 +13,17 @@ public class HomePage {
 	@FindBy(xpath = "//div[@class='panel wrapper']//a[contains(text(),'Sign In')]")
 	private WebElement signInLink;
 	
+	@FindBy(xpath = "//div[@class='panel header']//a[text()='Create an Account']")
+	private WebElement createAccountLink;
+	
+	
+	
 	
 	public WebElement getSignInLink() {
 		return signInLink;
+	}
+	public WebElement getCreateAccountLink() {
+		return createAccountLink;
 	}
 	
 

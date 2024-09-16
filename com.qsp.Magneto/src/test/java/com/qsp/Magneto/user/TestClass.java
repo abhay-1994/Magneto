@@ -1,9 +1,7 @@
-package com.qsp.Magneto;
+package com.qsp.Magneto.user;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import com.magneto.ObjectRepo.HomePage;
 import com.qsp.Magneto.GenericUtility.BaseClass;
 
 public class TestClass extends BaseClass  {
