@@ -15,6 +15,7 @@ public class UserRegistrationTest extends BaseClass {
 		createAcc.registerToTheApplication(driver);
 		
 		System.out.println("textCase failed");
+		//changes
 		
 	}
 
