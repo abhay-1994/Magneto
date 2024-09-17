@@ -11,9 +11,9 @@ import org.testng.annotations.BeforeSuite;
 import com.magneto.ObjectRepo.HomePage;
 
 public class BaseClass {
-	WebDriver driver;
+	public static WebDriver driver;
 	FileUtils futil = new FileUtils();
-	WebDriverUtility wUtil = new WebDriverUtility();
+	public static WebDriverUtility wUtil = new WebDriverUtility();
 
 	@BeforeSuite
 	public void connectToDB() {
@@ -38,6 +38,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.get(URL);
 		wUtil.implicitWait(driver, 10);
+		
 		
 
 	}

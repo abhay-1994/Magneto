@@ -9,7 +9,9 @@ import com.qsp.Magneto.GenericUtility.ExcelUtils;
 
 public class CreateAccountPage {
 	
+
 	public CreateAccountPage(WebDriver driver) {
+		
 		PageFactory.initElements(driver, this);
 		
 	}
@@ -57,7 +59,9 @@ public class CreateAccountPage {
 		return createAccountButton;
 	}
 	
+
 	//Business library
+	
 	public void registerToTheApplication(WebDriver driver) throws Throwable {
 		HomePage hp=new HomePage(driver);
 		hp.getCreateAccountLink().click();
@@ -75,6 +79,7 @@ public class CreateAccountPage {
 		createAccountButton.click();
 		
 	}
+	
 	
 
 }

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qsp.Magneto.user.UserRegistrationTest">
+      <class name="com.qsp.Magneto.user.TestClass">
         <methods>
           <include name="loginToApplication"/>
           <include name="connectToDB"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="veriFyUserIsAbleToRegister"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- com.qsp.Magneto.user.UserRegistrationTest -->
+      </class> <!-- com.qsp.Magneto.user.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
