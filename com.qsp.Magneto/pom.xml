@@ -37,12 +37,5 @@
     <artifactId>commons-io</artifactId>
     <version>2.15.1</version>
 </dependency>
-
-
-  	<dependency>
-  		<groupId>TestYantra</groupId>
-  		<artifactId>QSPProject</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>
